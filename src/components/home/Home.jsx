@@ -39,11 +39,10 @@ const App = () => {
         
         </div>
 
-        {/* Slider component */}
         <Slider />
       </section>
 
-      {/* Menu Card Section */}
+ 
       <section id="menucard">
 
       </section>
@@ -51,7 +50,6 @@ const App = () => {
      
       </section>
 
-      {/* Add other sections here */}
     </div>
   );
 };

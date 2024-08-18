@@ -5,6 +5,10 @@
     max-width: 100%; /* Allow the slider to take full width */
     margin: auto;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
   
   .slider-wrapper {
     display: flex;

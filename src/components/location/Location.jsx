@@ -1,6 +1,6 @@
 import React from 'react';
 import './Location.css';
-// import Img1 from '../../assets/location.gif'
+
 
 const Locations = () => {
   const locations = [
@@ -26,7 +26,6 @@ Chennai 600042`,
 
   return (
     <div className="locations-container" id='location'>
-        {/* <img src={Img1} alt="" /> */}
       <h2 id="locheading">Our Branches in various Location</h2>
       <div className="locations">
         {locations.map((location, index) => (
